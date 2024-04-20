@@ -1,0 +1,91 @@
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #F7F9F7
+   
+  }
+     
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+     
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      font-size: 35px; 
+      border: 1xp lightgray;
+      border-radius: 3px;
+      padding: 5xp 0;
+      margin: 10px;
+      height: 50px;
+      width: 50px;
+      line-height: 1.5;
+      text-align: center;
+      display: inline-block;
+      color: #F7F9F7;
+      
+  }
+     
+  .row{ 
+    margin-bottom: 10px;
+  }
+     
+  .input-area{
+      margin: 30px;
+  }
+
+  #grid {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+  }
+  
+  #guesses {
+    border: none;
+    font-size: 25px;
+  
+  }
+  
+  h3 {
+    text-align: center;
+    margin-top: 50px;
+    color: #E15634;
+  }
+  #demo {
+    text-align: center;
+    padding: 25px 300px 20px 300px;
+    list-style-type: square;
+
+  }
+  #button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 15px;
+  }
